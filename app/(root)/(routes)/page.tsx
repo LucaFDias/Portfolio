@@ -1,7 +1,8 @@
-import Link from 'next/link'
+import Link from 'next/link';
+
 import {
   HiOutlineDownload
-} from 'react-icons/hi'
+} from 'react-icons/hi';
 
 const Home = () => {
   return (
@@ -12,11 +13,14 @@ const Home = () => {
         </h1>
         <div className='flex-col flex px-2'>
           <p className='font-semibold'>Software engineer fullstack</p>
-          <p className='text-gray-400'>Development </p>
+          <p className='text-gray-400'>Developer fullstack with 1 year of experience.</p>
+          <p className='text-gray-400'>I enjoy building sites and apps with a focus on the world of React </p>
         </div>
         <div>
           <Link
-            href='/'
+            href='/cv.pdf'
+            download={true}
+            target='_blank'
             className='
               flex
               items-center
@@ -34,7 +38,6 @@ const Home = () => {
               focus:outline-none
               focus:ring-2
               focus:ring-inset
-              focus:ring-white
               max-w-fit
               ml-[-8px]
             '
