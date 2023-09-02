@@ -16,7 +16,7 @@ const Home = () => {
           <p className='text-gray-400'>Developer fullstack with 1 year of experience.</p>
           <p className='text-gray-400'>I enjoy building sites and apps with a focus on the world of React </p>
         </div>
-        <div>
+        <div className='flex gap-4'>
           <Link
             href='/cv.pdf'
             download={true}
@@ -42,7 +42,36 @@ const Home = () => {
               ml-[-8px]
             '
           >
-            Download CV
+            Download CV - pt
+            <HiOutlineDownload size={20}/>
+          </Link>
+          <Link
+            href='/cven.pdf'
+            download={true}
+            target='_blank'
+            className='
+              flex
+              items-center
+              rounded-md
+              font-bold
+              gap-2
+              p-2
+              transition-all
+              ease-in-out
+              hover:delay-150
+              translate-x-2
+              bg-white
+              text-[#212024]
+              hover:bg-[#212024]
+              hover:text-white
+              focus:outline-none
+              focus:ring-2
+              focus:ring-inset
+              max-w-fit
+              ml-[-8px]
+            '
+          >
+            Download CV - en
             <HiOutlineDownload size={20}/>
           </Link>
         </div>   

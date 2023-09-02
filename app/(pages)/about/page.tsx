@@ -18,7 +18,7 @@ const About = () => {
           transition={{ delay: 0.175}}
         >
           <SectionHeading>About Me</SectionHeading>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate ipsum nulla minus unde voluptatum eaque aliquam officia atque quasi consequuntur libero, fugiat, tempore deserunt exercitationem consequatur praesentium voluptatibus. Et, eaque?</p>
+          <p>I am currently studying the second semester of Systems analysis and development, I have experiences in real projects as a freelancer and on a personal basis. Strong skills in web development, specialized in creating and customizing e-commerce solutions (E-commerces), consumption of Rest and Restful APIs, GIT. In addition to working in Backend with Prisma, Django, and NoSQL and SQL databases. Committed to learning and growing as a technology professional. </p>
         </motion.section>
         <SectionDivider/>
       </main>

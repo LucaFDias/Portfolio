@@ -41,7 +41,9 @@ const Header = () => {
       >
         Lucas
       </Link>
-      <motion.nav>
+      <motion.nav
+        className="hidden md:block"
+      >
         {routes.map((route) => (
           <Link
             key={route.hrefUrl}

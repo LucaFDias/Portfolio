@@ -7,14 +7,15 @@ const Footer = () => {
   
   return (
     <div
-      className="flex items-center justify-center p-4"
+      className="md:flex items-center justify-center p-4"
     >
       {
         footerData.map((item, index) => (
           <Link
             className='
+              text-base
               uppercase 
-              text-xs
+              md:text-xs
               rounded-md
               font-medium
               mx-4

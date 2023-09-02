@@ -1,8 +1,9 @@
 'use client'
 
 import Link from "next/link";
-import { useRef } from "react";
 import Image from "next/image";
+
+import { useRef } from "react";
 
 import { projectsData } from "@/app/data/data";
 
@@ -30,6 +31,7 @@ const Project = ({
   return (
     <Link
       href={hrefUrl}
+      target="_blank"
     >
       <motion.div
         ref={ref}
@@ -58,7 +60,7 @@ const Project = ({
           >
           <div className="pt-4 pb-8 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full group-even:ml-[18rem]">
             <h3 className="text-2xl font-semibold">{title}</h3>
-            <p className="mt-2 leading-relaxed text-gray-400">{description}</p>
+            <p className="mt-2 mb-4 leading-relaxed text-gray-400">{description}</p>
             <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
               {tags.map((tag, index) => (
                 <li 
@@ -73,6 +75,8 @@ const Project = ({
                     uppercase
                     tracking-wider
                     shadow
+                    hover:bg-white/10
+                    transition
                   "
                 >
                   {tag}

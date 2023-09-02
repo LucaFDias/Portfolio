@@ -4,7 +4,6 @@ import { LuGraduationCap} from 'react-icons/lu';
 import {
   SlSocialTwitter,
   SlSocialGithub,
-  SlSocialSkype
 } from 'react-icons/sl'
 import {
   LuLinkedin
@@ -18,31 +17,31 @@ import {
   MdOutlineWorkOutline
 } from 'react-icons/md'
 
-import RmtDev from'@/public/images/rmtdev.png';
-import CorpComment from'@/public/images/corpcomment.png';
-import WordanAnalytics from'@/public/images/wordanalytics.png';
+import SpotifyImg from'@/public/images/spotify.png';
+import PortfolioImg from'@/public/images/portf.png';
+import DashboardImg from'@/public/images/dashboard.png';
 
 export const projectsData = [
   {
-    title: 'CorpComment',
-    description: 'I wored as a full-stack developer on this startup project for years. Users can give public feedback to companies.',
-    tags: ['React', 'NextJs', 'MongoDB', 'Tailwind', 'Prisma'],
-    hrefUrl: '/',
-    imageUrl: CorpComment
+    title: 'Dashboard-admin',
+    description: 'Dashboard - Admin, allows creation, reading, updating and deleting (CRUD) of data in a MySQL database',
+    tags: ['NextJS', 'TypeScript', 'Prisma', 'Api Rest', 'TailwindCSS', 'PlanetScale', 'Auth Clerk', 'MySQL'],
+    hrefUrl: 'https://github.com/LucaFDias/dashboard-admin',
+    imageUrl: DashboardImg
   },
   {
-    title: 'RmtDev',
-    description: 'I wored as a full-stack developer on this startup project for years. Users can give public feedback to companies.',
-    tags: ['React', 'NextJs', 'MongoDB', 'Tailwind', 'Prisma'],
-    hrefUrl: '/',
-    imageUrl: RmtDev
+    title: 'Interface Spotify Clone',
+    description: 'Creating the spotify interface responsive, project focused on my frontend study.',
+    tags: ['NextJS', 'TypeScript', 'TailwindCSS' ],
+    hrefUrl: 'https://github.com/LucaFDias/clone-spotify',
+    imageUrl: SpotifyImg
   },
   {
-    title: 'WordanAnalytcs',
-    description: 'I wored as a full-stack developer on this startup project for years. Users can give public feedback to companies.',
-    tags: ['React', 'NextJs', 'MongoDB', 'Tailwind', 'Prisma'],
-    hrefUrl: '/',
-    imageUrl: WordanAnalytics
+    title: 'My portfolio',
+    description: 'My portfolio',
+    tags: ['NextJS', 'TypeScript', 'TailwindCSS', 'Resend Email'],
+    hrefUrl: 'https://github.com/LucaFDias/portfolio',
+    imageUrl: PortfolioImg
   }
 ]
 
@@ -70,9 +69,25 @@ export const experiencesData = [
     date: 'april, 2023 - current'
   },
   {
+    title: "Full Course Python, Bro Code",
+    localtion: 'Bro Code, Youtube',
+    description: 'I successfully completed a comprehensive 12-hours Python course. This course provided a solid understanding of the fundamentals of Python programming, including control structures, data manipulation, function creation, and problem solving.',
+    icon: React.createElement(LuGraduationCap),
+    date: 'Jul, 2023',
+    tech: 'Tech: Python'
+  },
+  {
+    title: "Full Course Python3 and Django, Traversy Media",
+    localtion: 'Traversy Media, Youtube',
+    description: 'I successfully completed a comprehensive 7-hours Python and Django course. I acquired skills in web development with the Django framework, which include creating robust and dynamic web applications. My knowledge covers building data models, developing views, authenticating users, implementing CRUD (Create, Read, Update, Delete), and using tools like the Django REST framework to create APIs..',
+    icon: React.createElement(LuGraduationCap),
+    date: 'Jul, 2023',
+    tech: 'Tech: Python'
+  },
+  {
     title: "RocketSeat Ignite Bootcamp, 2022",
     localtion: 'RocketSeat, EAD',
-    description: 'I graduated after 6 months of studying. I immediately foung a job as a front-end developer',
+    description: 'RocketSeats Ignite Bootcamp is a learning path focused on software development, with updated and practical content, aimed at the needs of the technology area.',
     icon: React.createElement(LuGraduationCap),
     date: 'Nov, 2022 - mar, 2023',
     tech: 'ReactJS, React Native, NodeJS, TypeScript, Styled-components, TailwndCSS, Stripe.',
@@ -80,26 +95,18 @@ export const experiencesData = [
   {
     title: "RocketSeat Discover Bootcamp, 2023",
     localtion: 'RocketSeat, EAD',
-    description: 'I graduated after 6 months of studying. I immediately foung a job as a front-end developer',
+    description: 'Rocketseat Discover offers a series of free courses, making learning accessible to a broad audience. Its content covers topics such as HTML, CSS, JavaScript, and other fundamental aspects of web development. Furthermore, the platform is known for its practical approach, with projects and challenges that allow students to apply what they have learned in a hands-on manner.',
     icon: React.createElement(LuGraduationCap),
     date: 'jul, 2023 - current',
     tech: 'HTML5, CSS, JavaScript, Git and Github.'
   },
   {
-    title: "Bootcamp RocketSeat Discover, 2022",
-    localtion: 'Rocketseat, EAD',
-    description: 'I graduated after 6 months of studying. I immediately foung a job as a front-end developer',
-    icon: React.createElement(LuGraduationCap),
-    date: 'Sep, 2022 - Dec, 2023',
-    tech: 'HTML5, CSS, API,  JavaScript, Git and Github.'
-  },
-  {
     title: "Cursos em vídeo",
     localtion: 'Cursos em vídeo, EAD',
-    description: 'I graduated after 6 months of studying. I immediately foung a job as a front-end developer',
+    description: '"Curso em vídeo", by Professor Gustavo Guanabara is a very popular online educational platform in Brazil, known for offering a wide variety of technology and programming courses.',
     icon: React.createElement(LuGraduationCap),
     date: 'Jul, 2020',
-    tech: 'HTML, CSS, JavaScript, Git and Github.'
+    tech: 'Tech: HTML, CSS, JavaScript, Git and Github.'
   },
 ]
 
@@ -126,7 +133,7 @@ export const footerData = [
     label: 'Whatsapp',
   },
   {
-    hrefUrl: '/',
+    hrefUrl: '/contact',
     icon: React.createElement(MdOutlineEmail),
     label: 'email',
   }
