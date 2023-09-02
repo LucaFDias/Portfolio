@@ -15,16 +15,13 @@ import { motion } from 'framer-motion'
 const Experiences = () => {
   return (
     <motion.section 
-      className='mb-10 text-center'
+      className='mb-10 sm:my-10 text-center '
       initial={{ opacity: 0, y: 100}}
       animate={{ opacity: 1, y: 0}}
       transition={{ delay: 0.175}}
     >
       <SectionHeading>Experiences</SectionHeading>
-      <VerticalTimeline
-        lineColor='#e5e7eb'
-        
-      >
+      <VerticalTimeline>
         {
           experiencesData.map((item, index) => (
             <React.Fragment
@@ -39,7 +36,7 @@ const Experiences = () => {
                   padding: '1.3rem 2rem',
                 }}
                 contentArrowStyle={{
-                  borderRight: '0.6rem solid rgb(255 255 255 / 0.1)'
+                  borderRight: '0.6rem solid rgb(255 255 255 / .5)'
                 }}
                 date={item.date}
                 icon={item.icon}
@@ -51,6 +48,7 @@ const Experiences = () => {
                 <h3 className='!font-semibold !capitalize'>{item.title}</h3>
                 <p className='!font-normal !mt-0'>{item.localtion}</p>
                 <p className='!mt-1 !font-normal'>{item.description}</p>
+                <p>{item.tech}</p>
               </VerticalTimelineElement>
 
             </React.Fragment>
@@ -58,7 +56,6 @@ const Experiences = () => {
         }
       </VerticalTimeline>
     </motion.section>
-
   )
 }
 

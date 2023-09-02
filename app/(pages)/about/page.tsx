@@ -9,7 +9,7 @@ import Experiences from "@/app/components/experiences";
 const About = () => {
   return (
     <>
-      <main className="flex items-center flex-col leading-6 sm:mb-5">
+      <main className="flex items-center flex-col leading-6 sm:mt-10">
         <SectionDivider/>
         <motion.section 
           className="max-w-[45rem] text-center"

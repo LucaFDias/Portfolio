@@ -19,3 +19,21 @@ body,
   background-color: #2e2e2e; /* Cor do controle deslizante */
   border-radius: 10px;
 }
+
+.vertical-timeline-element-icon{
+  background-color: black !important;
+}
+.vertical-timeline::before{
+  width: 2px !important;
+  border: 1px solid rgba(255, 255,255, 0.2) !important;
+}
+
+.vertical-timeline-element-icon{
+    position:absolute;
+    top:0;left:0;
+    width: 20px;
+    height: 40px;
+    border-radius:50%;
+    -webkit-box-shadow:0 0 0 4px rgba(255, 255,255), inset 0 2px 0 rgba(0,0,0,.08), 0 3px 0 4px rgba(0,0,0,.05) !important;
+    box-shadow: 0 0 0 4px rgba(255, 255,255), inset 0 2px 0 rgba(0,0,0,.08), 0 3px 0 4px rgba(0,0,0,.05) !important;
+  }

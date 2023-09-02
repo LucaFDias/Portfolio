@@ -14,7 +14,8 @@ import {
   FaWhatsapp
 } from 'react-icons/fa'
 import {
-  MdOutlineEmail
+  MdOutlineEmail,
+  MdOutlineWorkOutline
 } from 'react-icons/md'
 
 import RmtDev from'@/public/images/rmtdev.png';
@@ -47,46 +48,58 @@ export const projectsData = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    localtion: 'Miami, FL',
+    title: "Computer Salesman and Technian, Store TáNaMão",
+    localtion: 'Recife, PE',
     description: 'I graduated after 6 months of studying. I immediately foung a job as a front-end developer',
-    icon: React.createElement(LuGraduationCap),
-    date: 'July, 2019'
+    icon: React.createElement(MdOutlineWorkOutline),
+    date: 'jun, 2021 - current'
   },
   {
-    title: "Graduated bootcamp",
-    localtion: 'Miami, FL',
+    title: "Developer Web Fullstack, Store TáNaMão",
+    localtion: 'Recife, PE',
     description: 'I graduated after 6 months of studying. I immediately foung a job as a front-end developer',
-    icon: React.createElement(LuGraduationCap),
-    date: 'July, 2019'
+    icon: React.createElement(MdOutlineWorkOutline),
+    date: 'jul, 2023 - current',
+    tech: 'HTML5, Python3, Django, Bootstrap, JavaScript'
   },
   {
-    title: "Graduated bootcamp",
-    localtion: 'Miami, FL',
-    description: 'I graduated after 6 months of studying. I immediately foung a job as a front-end developer',
+    title: "University Estácio de Sá",
+    localtion: 'Recife, PE',
+    description: "i'm course the second semester of analysis and systems",
     icon: React.createElement(LuGraduationCap),
-    date: 'July, 2019'
+    date: 'april, 2023 - current'
   },
   {
-    title: "Graduated bootcamp",
-    localtion: 'Miami, FL',
+    title: "RocketSeat Ignite Bootcamp, 2022",
+    localtion: 'RocketSeat, EAD',
     description: 'I graduated after 6 months of studying. I immediately foung a job as a front-end developer',
     icon: React.createElement(LuGraduationCap),
-    date: 'July, 2019'
+    date: 'Nov, 2022 - mar, 2023',
+    tech: 'ReactJS, React Native, NodeJS, TypeScript, Styled-components, TailwndCSS, Stripe.',
   },
   {
-    title: "Graduated bootcamp",
-    localtion: 'Miami, FL',
+    title: "RocketSeat Discover Bootcamp, 2023",
+    localtion: 'RocketSeat, EAD',
     description: 'I graduated after 6 months of studying. I immediately foung a job as a front-end developer',
     icon: React.createElement(LuGraduationCap),
-    date: 'July, 2019'
+    date: 'jul, 2023 - current',
+    tech: 'HTML5, CSS, JavaScript, Git and Github.'
   },
   {
-    title: "Graduated bootcamp",
-    localtion: 'Miami, FL',
+    title: "Bootcamp RocketSeat Discover, 2022",
+    localtion: 'Rocketseat, EAD',
     description: 'I graduated after 6 months of studying. I immediately foung a job as a front-end developer',
     icon: React.createElement(LuGraduationCap),
-    date: 'July, 2019'
+    date: 'Sep, 2022 - Dec, 2023',
+    tech: 'HTML5, CSS, API,  JavaScript, Git and Github.'
+  },
+  {
+    title: "Cursos em vídeo",
+    localtion: 'Cursos em vídeo, EAD',
+    description: 'I graduated after 6 months of studying. I immediately foung a job as a front-end developer',
+    icon: React.createElement(LuGraduationCap),
+    date: 'Jul, 2020',
+    tech: 'HTML, CSS, JavaScript, Git and Github.'
   },
 ]
 
