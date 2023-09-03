@@ -7,7 +7,7 @@ const Footer = () => {
   
   return (
     <div
-      className="md:flex items-center justify-center p-4"
+      className="flex items-center justify-center p-4"
     >
       {
         footerData.map((item, index) => (
@@ -18,7 +18,7 @@ const Footer = () => {
               md:text-xs
               rounded-md
               font-medium
-              mx-4
+              md:mx-4
               p-4
               transition-all
               ease-in-out
@@ -27,14 +27,15 @@ const Footer = () => {
               text-gray-400
               hover:bg-[#212024]
               hover:text-white
+              max-w-fit
             '
             key={index}
             href={item.hrefUrl}
             target='_blank'
           >
             <div className='flex items-center gap-2'>
-              <p>{item.label}</p>
-              <span className='text-base'>{item.icon}</span>
+              <p className='hidden md:block'>{item.label}</p>
+              <span className='text-2xl md:text-base '>{item.icon}</span>
             </div>
           </Link>
         ))

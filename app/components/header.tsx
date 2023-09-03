@@ -38,8 +38,9 @@ const Header = () => {
     >
       <Link
         href='/'
+        className="text-xl font-bold sm:text-lg "
       >
-        Lucas
+        Lucas Dias
       </Link>
       <motion.nav
         className="hidden md:block"
@@ -80,11 +81,13 @@ const Header = () => {
             transition
             rounded-md
             hover:delay-150
-            hover:bg-[#212024]
-            hover:text-gray-400
+            md:hover:bg-[#212024]
+            md:hover:text-gray-400
+            text-4xl
+            md:text-2xl
           "
         >
-          <AiOutlineMenu size={24}/>
+          <AiOutlineMenu/>
         </button>
       </div>
     </div>

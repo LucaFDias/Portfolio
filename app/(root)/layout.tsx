@@ -8,7 +8,7 @@ const Layout = ({
 }) => {
   return (
     <div
-      className="mx-auto px-2 w-full sm:px-6 lg:px-8"
+      className="mx-auto px-4 w-full sm:px-6 lg:px-8"
     >
       <div className="flex flex-col h-screen justify-between">
         <Header/>
