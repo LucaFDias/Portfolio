@@ -3,12 +3,9 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-import { 
-  AiOutlineMenu 
-} from 'react-icons/ai';
-
 import { motion } from "framer-motion";
-import { cn } from "../lib/utils";
+import { cn } from "@/lib/utils";
+import Modal from "./layout/Modal";
 
 const Header = () => {
   const pathname = usePathname()
@@ -87,7 +84,7 @@ const Header = () => {
             md:text-2xl
           "
         >
-          <AiOutlineMenu/>
+          <Modal/>
         </button>
       </div>
     </div>

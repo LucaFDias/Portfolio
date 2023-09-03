@@ -15,7 +15,7 @@ import { motion } from 'framer-motion'
 const Experiences = () => {
   return (
     <motion.section 
-      className='mb-10 sm:my-10 text-center '
+      className='my-10 text-center '
       initial={{ opacity: 0, y: 100}}
       animate={{ opacity: 1, y: 0}}
       transition={{ delay: 0.175}}

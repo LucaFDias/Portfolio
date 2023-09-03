@@ -89,6 +89,8 @@ const Project = ({
             alt={title}
             quality={95}
             className="
+              hidden
+              sm:block
               absolute 
               top-8 
               -right-40 
