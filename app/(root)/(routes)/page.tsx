@@ -6,7 +6,7 @@ import {
 
 const Home = () => {
   return (
-    <div className="mx-auto w-full px-2 sm:px-4 lg:px-6 max-w-4xl h-full flex items-center">
+    <div className="mx-auto container w-full px-2 sm:px-4 lg:px-6 max-w-4xl h-full flex items-center">
       <div className='flex-col flex gap-y-4 flex-1'>
         <h1 className='text-4xl font-bold px-2 title'>
           Lucas Dias
@@ -53,15 +53,17 @@ const Home = () => {
               font-bold
               gap-2
               p-2
-              transition-all
+              transition
               ease-in-out
-              hover:delay-150
+              delay-150
               translate-x-2
               bg-white
               text-[#212024]
-              md:hover:bg-[#212024]
-              md:hover:text-white
+              md:hover:bg-transparent
+            md:hover:text-white
+              md:hover:ring-1
               max-w-fit
+              
               ml-[-8px]
             '
           >

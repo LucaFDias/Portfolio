@@ -3,9 +3,11 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 import Modal from "./layout/Modal";
+
+import { motion } from "framer-motion";
+import HeaderLogo from "./header-logo";
 
 const Header = () => {
   const pathname = usePathname()
@@ -37,7 +39,7 @@ const Header = () => {
         href='/'
         className="text-xl font-bold sm:text-lg "
       >
-        Lucas Dias
+        <HeaderLogo/>
       </Link>
       <motion.nav
         className="hidden md:block"
@@ -80,7 +82,7 @@ const Header = () => {
             hover:delay-150
             md:hover:bg-[#212024]
             md:hover:text-gray-400
-            text-4xl
+            text-3xl
             md:text-2xl
           "
         >

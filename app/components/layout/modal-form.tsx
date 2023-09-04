@@ -32,8 +32,11 @@ const ModalForm = () => {
                 flex
                 items-center 
                 gap-4
-                py-2
+                py-3
                 px-4
+                sm:py-2
+                text-xl
+                sm:text-lg
               '
             >
               {item.icon}

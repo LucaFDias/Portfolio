@@ -2,6 +2,7 @@ import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import ClientOnly from '@/app/components/layout/client-only';
+import { Toaster } from 'react-hot-toast'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -55,6 +56,7 @@ export default function RootLayout({
               z-[-50]
             '
           />
+          <Toaster/>
           {children}
         </ClientOnly>
       </body>
