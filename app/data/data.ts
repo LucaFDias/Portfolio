@@ -125,7 +125,7 @@ export const footerData = [
     label: 'GitHub'
   },
   {
-    hrefUrl: '/',
+    hrefUrl: 'https://twitter.com/Luccas_Dias_',
     icon: React.createElement(SlSocialTwitter),
     label: 'Twitter'
 

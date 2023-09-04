@@ -32,14 +32,15 @@ const ContactForm = () => {
             required
             className="
               bg-transparent
-              ring-isent
-              ring-1
-              ring-white
-              py-1.5
+              py-2
               px-3
-              rounded-lg
+              rounded-md
               sm:w-1/2
               placeholder:text-xs
+              text-xs
+              ring-isent
+              border
+              border-gray-300
             "
           />
 
@@ -53,14 +54,15 @@ const ContactForm = () => {
             maxLength={300}
             className="
               h-40
-              py-1.5
+              py-2
               px-3
               bg-transparent
-              ring-1
-              ring-white
-              rounded-lg
+              rounded-md
               sm:w-1/2
               placeholder:text-xs
+              text-xs
+              border
+              border-gray-300
             "
             />
         </div>
