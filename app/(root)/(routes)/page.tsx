@@ -13,8 +13,8 @@ const Home = () => {
         </h1>
         <div className='flex-col flex px-2'>
           <p className='font-semibold'>Software engineer fullstack</p>
-          <p className='text-gray-400 '>Developer frontend with 1 year of experiences.</p>
-          <p className='text-gray-400'>I enjoy building sites and apps with a focus on the world of React. </p>
+          <p className='text-gray-400 '>Developer fullstack with 1 year of experiences.</p>
+          <p className='text-gray-400'>I enjoy building sites and apps with a focus on the world of React and Python. </p>
         </div>
         <div className='flex flex-col md:flex gap-4'>
           <Link

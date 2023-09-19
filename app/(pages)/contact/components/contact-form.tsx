@@ -40,7 +40,7 @@ const ContactForm = () => {
               text-xs
               ring-isent
               border
-              border-gray-300
+              border-gray-300npn
             "
           />
 
